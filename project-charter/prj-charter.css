@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+body {
+  background-color: blue;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+  margin: 15px;
+}
+
+.eachTitle {
+  color: blue;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+/* Section : GOAL */
+#goal {
+  background-color: rgb(242, 254, 255);
+  padding: 10px;
+}
+
+.goal-content {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+/* Section : SCOPE */
+#scope {
+  background-color: rgb(242, 254, 255);
+  padding: 10px;
+}
+
+.scope-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 50px;
+}
+
+/* Section : TEAM */
+
+#team {
+  background-color: rgb(242, 254, 255);
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.team-content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-bottom: 21px;
+}
+
+/* Section: PRIMARY */
+
+#primary {
+  background-color: rgb(242, 254, 255);
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 10px 10px;
+}
+
+/* Section : TIMELINE */
+
+#timeline {
+  background-color: rgb(242, 254, 255);
+  font-size: 13px;
+  padding: 10px;
+  padding-bottom: 0;
+  grid-column-start: 4;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.timeline-content {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+.date {
+  background-color: rgb(181, 182, 255);
+  color: rgb(0, 0, 0);
+  justify-self: center;
+  align-self: center;
+  padding: 10px 13px;
+  border: 1px solid black;
+  border-radius: 500px;
+  font-weight: 300;
+}

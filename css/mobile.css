@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+    .container a {
+      float: none;
+      width: 100%;
+    }
+    span {
+      display: none;
+    }
+    .name {
+      display: none;
+    }
+    #nav-bar {
+      display: block;
+      border: none;
+    }
+    .nav-name {
+      display: none;
+    }
+    .container3 {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .certificate-content {
+      display: grid;
+      grid-template-columns: 100%;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .prj-content {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+    .p-img {
+      width: 100%;
+    }
+}

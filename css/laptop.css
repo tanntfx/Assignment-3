@@ -1,0 +1,365 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.container {
+  margin: 0px;
+  display: block;
+}
+#banner {
+  width: 100%;
+
+  background-position: center;
+  color: white;
+}
+.banner-img {
+  filter: brightness(0.5);
+  width: 100%;
+  height: 600px;
+}
+
+
+.name {  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(221, 221, 221);
+  font-size: 200%;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
+.span {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(221, 221, 221);
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgb(73, 73, 73);
+}
+
+/* NAVBAR */
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  width: 100%;
+}
+.nav {
+  color: black;
+  border-left: 1px solid rgb(201, 201, 201);
+  padding: 20px 30px;
+  text-decoration: none;
+}
+.nav-name {
+  display: block;
+  line-height: 15px;
+  border-left: 1px solid rgb(201, 201, 201);
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+/* ABOUT :
+  Thiết kế phần mục tiêu nghề nghiệp và thông tin cá nhân*/
+
+#about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 50px;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+#target {
+  width: 100%;
+  padding: 20px;
+  padding-top: 75px;
+  font-size: 17px;
+}
+
+#personal-info {
+  width: 100%;
+  font-size: 17px;
+  padding: 20px;
+  padding-top: 75px;
+}
+
+.emailInput {
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 3px;
+}
+
+
+
+.section-title {
+  padding-bottom: 15px;
+}
+.mt-40 {
+  padding-bottom: 20px;
+}
+.icon {
+  color: rgb(9, 121, 150);
+}
+.hide {
+  display: none;
+}
+
+/*JOB*/
+
+.container3 {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#button {
+  display: none;
+}
+
+.abc {
+  width: 100%;
+  font-weight: 200;
+  padding: 30px;
+  border: solid 1px rgb(66, 66, 66);
+  border-radius: 5px;
+}
+
+.abc:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.abc:hover #button {
+  display: block;
+}
+/*exp*/
+
+.title {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-items: center;
+}
+#exp-icon {
+  font-size: 30px;
+}
+
+/*edu*/
+
+
+
+
+/*hobby*/
+
+.hobby-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 61, 88);
+}
+
+.hobby-2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 61, 88);
+  gap: 5px;
+}
+.hobby-3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 61, 88);
+}
+.hobby-4 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 61, 88);
+}
+span {
+  font-size: 17px;
+  justify-content: center;
+}
+
+/* skill */
+
+
+.skill-content {
+  gap: 15px;
+  padding-bottom: 120px;
+}
+.skill-1 {
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding-top: 20px;
+}
+.skill-2 {
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding-top: 20px;
+}
+.skill-3 {
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding-top: 20px;
+}
+.skill-4 {
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding-top: 20px;
+}
+
+/* language */
+
+
+
+.lang-1 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(70, 70, 70);
+}
+.lang-2 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(70, 70, 70);
+}
+
+/* CERTIFICATE */
+
+.bg-grey {
+  width: 100%;
+  padding-left: 0px;
+}
+.certificate-title {
+  padding: 20px;
+  font-weight: 300;
+  font-size: 35px;
+  color: rgb(70, 70, 70);
+  margin-left: 0px;
+}
+.certificate-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.cert {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.cert-title {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.certimg {
+  height: 130px;
+  margin-left: 30px;
+}
+
+
+/* PROJECT */
+.project-title {
+  margin: 20px;
+}
+
+.prj-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.prj-title {
+  font-weight: 300;
+  border-left: solid 1px rgb(206, 206, 206);
+  border-right: solid 1px rgb(206, 206, 206);
+  border-bottom: solid 1px rgb(206, 206, 206);
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.project {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 5px;
+  border-right: solid 1px rgb(206, 206, 206);
+  border-left: solid 1px rgb(206, 206, 206);
+  border-bottom: solid 1px rgb(206, 206, 206);
+  padding: 10px;
+  margin: 0;
+}
+
+.prj {
+  height: 100%;
+}
+
+.p-img {
+  width: 100%;
+  padding: 0px;
+}
+
+.year {
+  background-color: rgb(33, 129, 255);
+  color: white;
+  justify-self: center;
+  align-self: center;
+  padding: 5px 20px;
+  border-radius: 500px;
+}
+
+
+/* CONTACT */
+
+.prime-icon {
+  display: grid;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
